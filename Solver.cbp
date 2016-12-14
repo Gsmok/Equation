@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Solver" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Solver" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Solver" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="defs/basics/all.h" />
+		<Unit filename="defs/basics/complex.cpp" />
+		<Unit filename="defs/basics/complex.h" />
+		<Unit filename="defs/basics/constant.cpp" />
+		<Unit filename="defs/basics/constant.h" />
+		<Unit filename="defs/basics/equation.cpp" />
+		<Unit filename="defs/basics/equation.h" />
+		<Unit filename="defs/basics/expression.cpp" />
+		<Unit filename="defs/basics/expression.h" />
+		<Unit filename="defs/basics/parser.cpp" />
+		<Unit filename="defs/basics/parser.h" />
+		<Unit filename="defs/basics/unknown.cpp" />
+		<Unit filename="defs/basics/unknown.h" />
+		<Unit filename="defs/binary/add.cpp" />
+		<Unit filename="defs/binary/add.h" />
+		<Unit filename="defs/binary/all.h" />
+		<Unit filename="defs/binary/binary.cpp" />
+		<Unit filename="defs/binary/binary.h" />
+		<Unit filename="defs/binary/divide.cpp" />
+		<Unit filename="defs/binary/divide.h" />
+		<Unit filename="defs/binary/logarithm.cpp" />
+		<Unit filename="defs/binary/logarithm.h" />
+		<Unit filename="defs/binary/multiply.cpp" />
+		<Unit filename="defs/binary/multiply.h" />
+		<Unit filename="defs/binary/power.cpp" />
+		<Unit filename="defs/binary/power.h" />
+		<Unit filename="defs/binary/substract.cpp" />
+		<Unit filename="defs/binary/substract.h" />
+		<Unit filename="defs/single/all.h" />
+		<Unit filename="defs/single/cosinus.cpp" />
+		<Unit filename="defs/single/cosinus.h" />
+		<Unit filename="defs/single/cotangens.cpp" />
+		<Unit filename="defs/single/cotangens.h" />
+		<Unit filename="defs/single/sinus.cpp" />
+		<Unit filename="defs/single/sinus.h" />
+		<Unit filename="defs/single/tangens.cpp" />
+		<Unit filename="defs/single/tangens.h" />
+		<Unit filename="defs/trinary/all.h" />
+		<Unit filename="defs/trinary/trinary.cpp" />
+		<Unit filename="defs/trinary/trinary.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
