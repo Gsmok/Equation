@@ -1,0 +1,67 @@
+#Very "approximated" list, lol
+
+0.01
+- Implement interfaces
+- Implement prototype (just implement.. approximation is ok) xP
+
+0.02
+- Optimizations for speed (solve time can't be too laggy when we are not even close to goal)
+
+0.03
+- Light optimizations for memory (just to make sure that it's not like google chrome)
+
+0.10
+- Reduce approximations to minimum
+
+0.11
+- Light speed optimizations (let's keep it this way)
+
+0.2
+- Implement additional expressions (for example derivatives, integrals, arcus trigonometry etc.)
+
+#optional
+	0.3 
+	-Totally rebuild (potentialy discard most of original) schema taking in mind conclusions from last versions
+	
+	0.31
+	- Implement interfaces
+	- Implement prototype
+	
+	0.32
+	- Optimizations
+	
+	#and loop to the version 0.8 
+
+0.8
+- Remove all non-final (inside-class changings the system of equations)  aproximations
+
+0.85
+- Make sure that everything is exception-proof, debbuging
+
+0.9
+- Implement all irreplacable or usefull expressions
+
+0.95
+- Final debbuging
+
+1.0
+- Proffiling and final optimizations
+
+
+Far-Future developement:
+- optional memory and complexes being able to save incidentally (or not) found solutions.
+
+- Systems of equation being able to use previous experience to quick-alter outdated solutions after user-caused change (not just erasin' everythin' every time)
+
+- ranges
+	example y = 0 for {x < 15}
+		y = sin(x) for {x>=15}
+	v.usefull in my opinion
+
+- Auto-background-thread-handle
+	give the user option to command system of equation to be solved for given arguments (potentialy multiple or even infinity) in background low-priority thread (finding use of the free time of cpu, giving it more space when needed for something else).
+
+- GPU shaders
+	expansion of auto-thread-handle, putting most of the equations into gpu (given that only v.multiple equation system can be cpu-heavy it could lead us to huge performance boost).
+
+- After everything is done - rebuild everything one last time (cause it is best way to keep best performance so important in math libraries)

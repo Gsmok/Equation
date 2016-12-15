@@ -1,13 +1,12 @@
 =================
 Author:	Ryuujin
 Project name:	Equation_Solver
+Current version: 0.00 (lol, not even)
 
-Description:	Prototype version of library able to solve complexes of multiple equations 
-				with multiple unknown variables by mathematical non-approximate ways aiming to
-				reduce miscalculation chances to 0%
+Description:	Prototype version of library able to solve complexes of multiple equations with multiple unknown variables by mathematical non-approximate ways aiming to reduce miscalculation chances to 0%
 				
-				The goal of this solver is to be able to find all possible values of choosen unknown 
-				compared to others by for example:
+		The goal of this solver is to be able to find all possible values of choosen unknown 
+		compared to others by for example:
 				
 				example1:
 					Input:	4y = x^2 + 25x + 5
@@ -22,7 +21,7 @@ Description:	Prototype version of library able to solve complexes of multiple eq
 					Input: y = 5x + z
 						   z = tg(p) * ctg(p)
 						   
-					Output1 (looking for y):	y = 5x + 1	//way to say "that's the best i can do"
+					Output1 (looking for y):	y = 5x + 1	//"that's the best i can do"
 					
 					Output2 (looking for x):	x = y/5 - 0.2	//the same
 				
