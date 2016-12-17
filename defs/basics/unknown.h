@@ -23,7 +23,7 @@ namespace solver
             virtual double compare(const iExpression& arg);
 
             virtual iExpression* simplify();
-            virtual contains(const iExpression&);
+            virtual bool contains(const iExpression&)const;
     };
 };
 

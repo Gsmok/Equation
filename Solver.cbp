@@ -39,7 +39,6 @@
 		<Unit filename="defs/basics/constant.h" />
 		<Unit filename="defs/basics/equation.cpp" />
 		<Unit filename="defs/basics/equation.h" />
-		<Unit filename="defs/basics/expression.cpp" />
 		<Unit filename="defs/basics/expression.h" />
 		<Unit filename="defs/basics/parser.cpp" />
 		<Unit filename="defs/basics/parser.h" />

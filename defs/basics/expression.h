@@ -18,7 +18,7 @@ namespace solver
             virtual iExpression* simplify()const =0;
             virtual iExpression* simplify()=0;
 
-            virtual contains(const iExpression& arg)=0;
+            virtual bool contains(const iExpression& arg)const=0;
     };
 
 };
