@@ -31,6 +31,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="defs/all.h" />
 		<Unit filename="defs/basics/all.h" />
 		<Unit filename="defs/basics/complex.cpp" />
 		<Unit filename="defs/basics/complex.h" />
@@ -64,6 +65,8 @@
 		<Unit filename="defs/single/cosinus.h" />
 		<Unit filename="defs/single/cotangens.cpp" />
 		<Unit filename="defs/single/cotangens.h" />
+		<Unit filename="defs/single/single.cpp" />
+		<Unit filename="defs/single/single.h" />
 		<Unit filename="defs/single/sinus.cpp" />
 		<Unit filename="defs/single/sinus.h" />
 		<Unit filename="defs/single/tangens.cpp" />

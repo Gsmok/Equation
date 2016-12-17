@@ -1,9 +1,6 @@
 #ifndef solver_trinary_all_h
 #define solver_trinary_all_h
 
-namespace solver
-{
-
-};
+#include "trinary.h"
 
 #endif // solver_trinary_all_h

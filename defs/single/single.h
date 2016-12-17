@@ -1,17 +1,17 @@
-#ifndef solver_binary_binary_h
-#define solver_binary_binary_h
+#ifndef solver_single_single_h
+#define solver_single_single_h
 
 #include "../basics/expression.h"
 
 namespace solver
 {
-    class aBinary : protected iExpression
+    class aSingle : protected iExpression
     {
         protected:
-            iExpression *first, *sec;
+            iExpression *argument;
 
         public:
-            aBinary(iExpression* _first, iExpression* _sec);
+            aSingle(iExpression* _argument);
 
             virtual bool isEqual(const iExpression& arg)const =0;
             virtual bool isEqual(const iExpression& arg)=0;
@@ -29,4 +29,4 @@ namespace solver
     };
 };
 
-#endif // solver_binary_binary_h
+#endif // solver_single_single_h

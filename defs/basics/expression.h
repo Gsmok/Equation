@@ -15,7 +15,9 @@ namespace solver
             virtual double compare(const iExpression& arg)const =0;
             virtual double compare(const iExpression& arg)=0;
 
-            virtual iExpression* simplify();
+            virtual iExpression* simplify()const =0;
+            virtual iExpression* simplify()=0;
+
             virtual contains(const iExpression& arg)=0;
     };
 

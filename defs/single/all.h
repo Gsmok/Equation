@@ -1,9 +1,9 @@
 #ifndef solver_single_all_h
 #define solver_single_all_h
 
-namespace solver
-{
-
-};
+#include "cosinus.h"
+#include "sinus.h"
+#include "tangens.h"
+#include "cotangens.h"
 
 #endif // solver_single_all_h
