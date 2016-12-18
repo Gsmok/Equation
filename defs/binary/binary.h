@@ -13,14 +13,14 @@ namespace solver
         public:
             aBinary(iExpression* _first, iExpression* _sec);
 
-            virtual bool isEqual(const iExpression& arg)const =0;
-            virtual bool isEqual(const iExpression& arg)=0;
+            virtual bool isEqual(const iExpression& arg)const;
+            virtual bool isEqual(const iExpression& arg);
 
             virtual double eval()const =0;
             virtual double eval()=0;
 
-            virtual double compare(const iExpression& arg)const =0;
-            virtual double compare(const iExpression& arg)=0;
+            virtual double compare(const iExpression& arg)const;
+            virtual double compare(const iExpression& arg);
 
             virtual iExpression* simplify()const =0;
             virtual iExpression* simplify()=0;
