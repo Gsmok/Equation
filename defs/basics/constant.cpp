@@ -13,7 +13,7 @@ bool cConstant::isEqual(const iExpression& arg)const
 
 bool cConstant::isEqual(const iExpression& arg)
 {
-    return ((cConstant*)this)->isEqual(arg);
+    return ((const cConstant*)this)->isEqual(arg);
 }
 
 double cConstant::eval()const
@@ -23,7 +23,7 @@ double cConstant::eval()const
 
 double cConstant::eval()
 {
-    return ((cConstant*)this)->eval();
+    return ((const cConstant*)this)->eval();
 }
 
 double cConstant::compare(const iExpression& arg)const
@@ -33,7 +33,7 @@ double cConstant::compare(const iExpression& arg)const
 
 double cConstant::compare(const iExpression& arg)
 {
-    return ((cConstant*)this)->compare(arg);
+    return ((const cConstant*)this)->compare(arg);
 }
 
 iExpression* cConstant::simplify()
@@ -43,5 +43,5 @@ iExpression* cConstant::simplify()
 
 bool cConstant::contains(const iExpression& arg)const
 {
-    return this == &arg;
+    return isEqual(arg);
 }
