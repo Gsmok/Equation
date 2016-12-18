@@ -1,7 +1,8 @@
 #Very "approximated" list, lol
+#V - done
 
 0.01
-- Implement interfaces
+V Implement interfaces 
 - Implement prototype (just implement.. approximation is ok) xP
 
 0.02
